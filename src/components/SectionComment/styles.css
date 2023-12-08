@@ -1,0 +1,31 @@
+#cars-comment {
+    padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dct-container-comments {
+    background-color: var(--dct-color-section-comments-bg);
+  }
+  
+  .dct-card-comment {
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 12px;
+    border: 1px solid var(--dct-color-section-comments-border);
+    padding: 25px 20px;
+  }
+  
+  .dct-card-comment {
+      background-color: var(--dct-color-section-comments-card-bg);
+  }
+  
+  .dct-card-comment p {
+      color: var(--dct-color-section-comments-font);
+  }
+  
+  @media (min-width: 992px) {
+    #cars-comment {
+      padding: 0 120px;
+    }
+  }

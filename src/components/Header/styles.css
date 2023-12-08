@@ -1,0 +1,14 @@
+header {
+    background-color: var(--dct-color-header-bg);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav h1 {
+    color: var(--dct-color-header-font);
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+  }

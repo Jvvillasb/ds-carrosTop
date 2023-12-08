@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --dct-color-header-bg: #3c9af0;
+  --dct-color-header-font: #ffffff;
+  --dct-color-section-cars-bg: #ffffff;
+  --dct-color-section-cars-card-bg: #d9d9d9;
+  --dct-color-section-cars-border: #3c9af0;
+  --dct-color-section-cars-description: #5e5e5e;
+  --dct-color-section-comments-bg: #c8c8c8;
+  --dct-color-section-comments-card-bg: #ffffff;
+  --dct-color-section-comments-title: #5e5e5e;
+  --dct-color-section-comments-font: #3c9af0;
+  --dct-color-section-comments-border: #3c9af0;
+  --dct-color-section-comments-bg-card: #ffffff;
+  --dct-color-section-comments-card-border: #3c9af0;
+  --dct-color-footer-bg: #3c9af0;
+  --dct-color-footer-font: #ffffff;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
+.dct-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.dct-mgbottom {
+  margin-bottom: 20px;
+}
